@@ -1,7 +1,11 @@
+[TOP]
+
 # 1. 实验名称
 汇编语言及程序设计
+
 # 2. 实验报告作者
 **信息安全 1410658 杨旭东**
+
 # 3. 实验内容
 
 1. 定义 NK-CPU 汇编语言的基本内容
@@ -131,7 +135,7 @@ main:       # indicates start of code (first instruction to execute)
 ## 5.3. 使用 NK-CPU 汇编语言编写对 20 个随机数的排序程序
 >sort.asm
 
-```asm
+```MASM
 .data #数据段
 value: .word 29,23,35,50,15,34,5,41,53,13,86,20,4,6,15,71,8,52,19,37 #变量声明
 .text #代码段
